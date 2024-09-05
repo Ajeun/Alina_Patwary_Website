@@ -75,10 +75,11 @@ nav ul li a:hover {
 .button {
   text-decoration: none;
   text-transform: uppercase;
+  color: inherit;
   border: 2px solid;
   padding: 0.8rem 2rem; /* top and bottom, then left and right */
   margin-top: 1rem;
-  display: inline-block
+  display: inline-block;
 }
 
 /* Other Sections */
