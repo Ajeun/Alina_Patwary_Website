@@ -1,191 +1,89 @@
+/* Universal Styles */
 * {
   padding: 0rem;
-	margin: 0;
-	box-sizing: border-box;
-	font-family: "Work Sans", sans-serif;
-} 
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
 
-/* ------------------- Universal Styles --------------------*/
-
-body {
+body, html {
   border: none;
 }
 
-html {
-  border: none;
-}
-
-section {
-  padding: 5%
-}
-
-
-.bg-dark {
-  background-color: #001527;
-  color: white;
-}
-
-.centered {
-  text-align: center;  
-}
-
-a:hover {
-  color: grey;
-  
-  
-  
-}
-
-/* ------------------- Typography --------------------*/
-a {
-  color: inherit;
-}
-  
-h1 {
-  font-size: 4rem;
-    margin-bottom: 2rem;
-}
-
-h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-} 
- 
-p {
-  line-height: 1.5;
-  font-weight: 300;
-  font-size: 1.1rem;
-  margin-bottom: 1rem;
-}
-
-/* -------------------- Buttons ------------------------ */
-
-.button {
-  text-decoration: none;
-  text-transform: uppercase;
-  border: 2px solid;
-  padding: 0.8rem 2rem; /* top and bottom, then left and right */
-  margin-top: 1rem;
-  display: inline-block
-}
-
-/*------------------ Header styles --------------------*/
-
-h {
-  background-image: url('https://images.unsplash.com/photo-1528988719300-046ff7faf8cb?q=80&w=2531&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-  background-position: 45% 75%;
-  padding: 15% 5%;
-  min-height: 95vh;
-/*  display: flex; */
-  align-items: center;
-  text-align: center;
-}
-
-.down-arrow {
-  display: inline-block;
-  color: inherit;
-  margin-top: 1rem;
-  font-size: 4rem;
-  text-decoration: none;
-  align-items: center;
-}
-
-header h1 span {
-  border-bottom: 2px solid;
-  display: inline-block;
-  line-height: 0.95;
-}
-
-
-/* ------------------- Image Banner --------------------- */
-
-.banner {
-  background-color: grey;
-  background-size: cover;
-  background-position: 50% 45%;
-  min-height: 70vh;
-  padding: 15vh 5%;
-  background-image: url('https://images.unsplash.com/photo-1492531622965-b556ff0402df?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')
-}
-
-.big-text{
-  color: white;
-  font-size: 2.2rem;
-  text-align: center; 
-}
-
-/* -------------------- Image Gallery ---------------------- */
-
-.bg-image {
-  display: inline-block;
-  width: 32%;
-  padding-bottom: 27%;
-  background-size: cover;
-  background-position: center;
-  background-image: url('https://images.unsplash.com/photo-1494500764479-0c8f2919a3d8?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')
-}
-
-
-.img-2 {
-  background-position: top;
-  background-image: url('https://images.unsplash.com/photo-1465056836041-7f43ac27dcb5?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fG1vdW50YWlucyUyMG5ldyUyMHplYWxhbmR8ZW58MHx8MHx8fDA%3D');
-/* padding-bottom: 60%; */
-}
-
-.img-3 {
-  
-  
-}
-
-
-/* ------------------- Footer ----------------------- */
-footer {
-  padding: 5% 10%;
-  text-align: center;
-}
-
-footer {
-  nav a {
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 1rem;
-    display: inline-block;
-    
-  }
-}
-
-
-/* Styling the header */
+/* Header Styles */
 header {
     background-color: white; /* White background */
-    padding: 10px 0; /* Padding for spacing inside the header */
-    border-bottom: 1px solid #ddd; /* Optional: Adds a light border at the bottom for a clean look */
-    width: 100%; /* Make the header span the entire width of the page */
-    text-align: center; /* Center-align the content */
-    position: relative; /* Ensure it's positioned normally */
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd; /* Light border for header */
+    width: 100%;
+    text-align: center;
+    position: relative;
 }
 
-/* Styling the navigation menu */
+/* Navigation Menu */
 nav ul {
-    list-style-type: none; /* Remove bullet points */
+    list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden; /* Helps with layout */
+    overflow: hidden;
 }
 
 nav ul li {
-    display: inline-block; /* Align the menu items horizontally */
-    margin-right: 20px; /* Add space between items */
+    display: inline-block;
+    margin-right: 20px;
 }
 
 nav ul li a {
-    color: #333; /* Dark text color */
-    text-decoration: none; /* Remove underline from links */
-    padding: 10px 20px; /* Add padding inside the links */
-    font-weight: bold; /* Bold font */
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
 }
 
 nav ul li a:hover {
-    background-color: #f0f0f0; /* Light gray background on hover */
-    border-radius: 5px; /* Round corners on hover */
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+/* Banner Section */
+.banner {
+    background-image: url('https://images.unsplash.com/photo-1528988719300-046ff7faf8cb?q=80&w=2531&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-position: 45% 75%;
+    padding: 15% 5%;
+    min-height: 95vh;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 4rem;
+    color: white;
+}
+
+.banner h1 span {
+    border-bottom: 2px solid white;
+}
+
+.down-arrow {
+    color: inherit;
+    margin-top: 1rem;
+    font-size: 4rem;
+}
+
+/* Other Sections */
+section {
+    padding: 5%;
+}
+
+.bg-dark {
+    background-color: #001527;
+    color: white;
+}
+
+/* Gallery */
+.bg-image {
+    display: inline-block;
+    width: 32%;
+    padding-bottom: 27%;
+    background-size: cover;
+    background-position: center;
 }
