@@ -71,7 +71,7 @@ p {
 
 /*------------------ Header styles --------------------*/
 
-header {
+h {
   background-image: url('https://images.unsplash.com/photo-1528988719300-046ff7faf8cb?q=80&w=2531&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
   background-position: 45% 75%;
   padding: 15% 5%;
@@ -152,4 +152,40 @@ footer {
     display: inline-block;
     
   }
+}
+
+
+/* Styling the header */
+header {
+    background-color: white; /* White background */
+    padding: 10px 0; /* Padding for spacing inside the header */
+    border-bottom: 1px solid #ddd; /* Optional: Adds a light border at the bottom for a clean look */
+    width: 100%; /* Make the header span the entire width of the page */
+    text-align: center; /* Center-align the content */
+    position: relative; /* Ensure it's positioned normally */
+}
+
+/* Styling the navigation menu */
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Helps with layout */
+}
+
+nav ul li {
+    display: inline-block; /* Align the menu items horizontally */
+    margin-right: 20px; /* Add space between items */
+}
+
+nav ul li a {
+    color: #333; /* Dark text color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 20px; /* Add padding inside the links */
+    font-weight: bold; /* Bold font */
+}
+
+nav ul li a:hover {
+    background-color: #f0f0f0; /* Light gray background on hover */
+    border-radius: 5px; /* Round corners on hover */
 }
