@@ -68,6 +68,17 @@ nav ul li a:hover {
     color: inherit;
     margin-top: 1rem;
     font-size: 4rem;
+    text-align: center;
+  
+}
+
+.button {
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 2px solid;
+  padding: 0.8rem 2rem; /* top and bottom, then left and right */
+  margin-top: 1rem;
+  display: inline-block
 }
 
 /* Other Sections */
