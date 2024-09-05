@@ -100,3 +100,75 @@ section {
     background-size: cover;
     background-position: center;
 }
+
+
+
+/* Styling the About page */
+.about-page {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+/* About text on the left */
+.about-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.about-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+/* Images on the right */
+.about-images {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.about-images img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Horizontal banner for new section */
+.section-banner {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.section-banner h2 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* New section content */
+.new-section {
+    text-align: left;
+}
+
+.new-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
