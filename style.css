@@ -118,7 +118,7 @@ section {
 
 /* Image content on the right */
 .image-content img {
-    width: 300px;             /* Adjust the image width */
+    width: 100px;             /* Adjust the image width */
     height: auto;             /* Keep the image's aspect ratio */
     border-radius: 8px;       /* Optional: Add rounded corners to the image */
 }
