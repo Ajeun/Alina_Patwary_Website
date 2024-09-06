@@ -90,6 +90,10 @@ section {
 .bg-dark {
     background-color: #001527;
     color: white;
+  }
+
+footer {
+  color: white;
 }
 
 /* Gallery */
