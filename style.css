@@ -120,7 +120,7 @@ section {
 .image-content img {
     width: 100px;             /* Adjust the image width */
     height: auto;             /* Keep the image's aspect ratio */
-    border-radius: 8px;       /* Optional: Add rounded corners to the image */
+    border-radius: 0px;       /* Optional: Add rounded corners to the image */
 }
 
 
