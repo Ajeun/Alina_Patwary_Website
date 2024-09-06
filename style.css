@@ -122,7 +122,7 @@ footer {
 
 /* Image content on the right */
 .image-content img {
-    minwidth: 200px;             /* Adjust the image width */
+    minwidth: 300px;             /* Adjust the image width */
     height: auto;             /* Keep the image's aspect ratio */
     border-radius: 0px;       /* Optional: Add rounded corners to the image */
 }
