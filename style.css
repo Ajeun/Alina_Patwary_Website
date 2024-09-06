@@ -111,18 +111,19 @@ footer {
     display: flex;            /* Use flexbox to create a row layout */
     justify-content: space-between;
     align-items: center;      /* Vertically align the items */
-    padding: 20px;
+    padding: 0px;
 }
 
 /* Text content on the left */
 .text-content {
     flex: 1;                  /* Allow the text to take up remaining space */
-    margin-right: 20px;       /* Add space between the text and image */
+    margin-right: 40px;       /* Add space between the text and image */
+    
 }
 
 /* Image content on the right */
 .image-content img {
-    minwidth: 300px;             /* Adjust the image width */
+    min-width: 400px;             /* Adjust the image width */
     height: auto;             /* Keep the image's aspect ratio */
     border-radius: 0px;       /* Optional: Add rounded corners to the image */
 }
