@@ -109,28 +109,45 @@ footer nav {
     
 }
 
-/* Container for the text and image */
-.text-image-section {
-    display: flex;            /* Use flexbox to create a row layout */
+
+/* General styling */
+.container {
+    display: flex;
     justify-content: space-between;
-    align-items: center;      /* Vertically align the items */
-    padding: 5px;
+    align-items: center;
+    margin: 20px;
 }
 
-/* Text content on the left */
 .text-content {
-    flex: 1;                  /* Allow the text to take up remaining space */
-    margin-right: 40px;       /* Add space between the text and image */
-    
+    width: 60%;
 }
 
-/* Image content on the right */
-.image-content img {
-    min-width: 300px;             /* Adjust the image width */
-    height: auto;             /* Keep the image's aspect ratio */
-    border-radius: 0px;       /* Optional: Add rounded corners to the image */
+.image-container {
+    width: 35%;
 }
 
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Responsive styling using media queries */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .image-container {
+        width: 100%;
+        margin-bottom: 20px; /* Add margin so there's space between the image and text */
+    }
+
+    .text-content {
+        width: 100%;
+    }
+}
 
 /* Styling the About page */
 .about-page {
@@ -200,4 +217,6 @@ footer nav {
     margin-bottom: 20px;
     line-height: 1.6;
 }
+
+
 
