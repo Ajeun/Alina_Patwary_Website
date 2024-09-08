@@ -92,8 +92,12 @@ section {
     color: white;
   }
 
-footer {
+footer nav {
   color: white;
+  align-items: center;  
+  display: inline-block;
+  justify-content: space-between;
+  
 }
 
 /* Gallery */
